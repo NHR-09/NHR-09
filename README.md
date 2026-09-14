@@ -1,12 +1,7 @@
 <div align="center">
 
-<!-- EDITORIAL TITLE PLATE -->
-<img src="assets/hero/title.svg" width="680" alt="NHR-09 — lets do this one last time yo ," />
-
-<br/><br/>
-
-<!-- CINEMATIC SPIDER-MAN HERO ARTWORK -->
-<img src="assets/hero/hero1.jpg" width="100%" alt="NHR-09" style="border-radius: 8px; max-width: 736px;" />
+<!-- SPIDER-MAN HERO BANNER -->
+<img src="assets/hero/hero_banner.png" width="100%" alt="NHR-09 — lets do this one last time yo ," style="border-radius: 8px; max-width: 736px;" />
 
 <br/><br/>
 
