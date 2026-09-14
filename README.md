@@ -5,8 +5,8 @@
 
 <br/><br/>
 
-<!-- CINEMATIC NOIR HERO ARTWORK -->
-<img src="assets/hero/hero.jpg" width="100%" alt="NHR-09" style="border-radius: 8px; max-width: 860px;" />
+<!-- CINEMATIC SPIDER-MAN HERO ARTWORK -->
+<img src="assets/hero/hero1.jpg" width="100%" alt="NHR-09" style="border-radius: 8px; max-width: 736px;" />
 
 <br/><br/>
 
@@ -63,7 +63,7 @@
 <br/>
 
 <!-- SUBTLE GRAPHIC NOVEL SIGN-OFF -->
-<img src="assets/decorations/spider-mark.svg" width="30" alt="Spider Mark" />
+<img src="assets/decorations/spider-logo.svg" width="55" alt="Spider-Man Logo" />
 
 <br/><br/>
 
