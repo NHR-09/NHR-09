@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 52" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hdrGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#FF1E46" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Chapter Box -->
+  <path d="M 0 0 L 140 0 L 125 52 L 0 52 Z" fill="#00F0FF" />
+  <text x="62" y="34" font-family="'Impact', 'Arial Black', sans-serif" font-size="20" font-weight="900" fill="#050811" letter-spacing="2" text-anchor="middle">
+    ACT // 02
+  </text>
+
+  <!-- Title Text -->
+  <text x="150" y="35" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" font-weight="900" fill="#FFFFFF" letter-spacing="2">
+    TECH ARSENAL
+  </text>
+
+  <!-- Red Sub-label -->
+  <text x="360" y="34" font-family="'Courier New', monospace" font-size="12" font-weight="700" fill="#FF1E46" letter-spacing="1">
+    [WEAPONS OF CHOICE]
+  </text>
+
+  <!-- Geometric Line Trailing to the Right -->
+  <line x1="570" y1="30" x2="790" y2="30" stroke="url(#hdrGrad2)" stroke-width="3" stroke-linecap="round" />
+  <polygon points="792,26 800,30 792,34" fill="#FF1E46" />
+</svg>

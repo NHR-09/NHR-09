@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" width="100%" height="100%">
+  <defs>
+    <linearGradient id="m1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D18" />
+      <stop offset="100%" stop-color="#04060B" />
+    </linearGradient>
+
+    <filter id="m1Glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      @keyframes pulseNode {
+        0%, 100% { r: 5px; stroke-opacity: 0.6; }
+        50% { r: 7.5px; stroke-opacity: 1; }
+      }
+      .node-pulse { animation: pulseNode 2.5s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .node-pulse { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect x="2" y="2" width="476" height="226" rx="10" fill="url(#m1Bg)" stroke="#1B2438" stroke-width="1.6" />
+
+  <!-- Top Red Strip / Mission Index -->
+  <path d="M 2 10 C 2 5.5 5.5 2 10 2 L 470 2 C 474.5 2 478 5.5 478 10 L 478 28 L 2 28 Z" fill="#101726" />
+  <rect x="2" y="2" width="115" height="26" rx="4" fill="#FF1E46" />
+  <text x="59" y="19" font-family="'Impact', 'Arial Black', sans-serif" font-size="11.5" font-weight="900" fill="#FFFFFF" letter-spacing="1.5" text-anchor="middle">
+    MISSION // 01
+  </text>
+
+  <text x="465" y="19" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" fill="#00F0FF" text-anchor="end">
+    [AST · KNOWLEDGE GRAPH]
+  </text>
+
+  <!-- Project Title -->
+  <text x="24" y="60" font-family="'Impact', 'Arial Black', -apple-system, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" letter-spacing="0.8">
+    ARCHITECH
+  </text>
+  <text x="24" y="78" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="12" font-weight="700" fill="#00F0FF" letter-spacing="0.5">
+    Architectural Recovery &amp; Semantic Synthesis
+  </text>
+
+  <!-- Short Description -->
+  <text x="24" y="104" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="11.5" font-weight="400" fill="#93A2B7">
+    AST repository parsing, coupling measurement, and
+  </text>
+  <text x="24" y="122" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="11.5" font-weight="400" fill="#93A2B7">
+    interactive knowledge graphs powered by Neo4j &amp; LLMs.
+  </text>
+
+  <!-- Tech Stack Badges Row -->
+  <g transform="translate(24, 142)">
+    <rect x="0" y="0" width="58" height="20" rx="3" fill="#141E30" stroke="#FF1E46" stroke-width="0.8" />
+    <text x="29" y="13.5" font-family="'SF Pro Display', sans-serif" font-size="9.5" font-weight="700" fill="#F0F4F8" text-anchor="middle">FastAPI</text>
+
+    <rect x="64" y="0" width="52" height="20" rx="3" fill="#141E30" stroke="#00F0FF" stroke-width="0.8" />
+    <text x="90" y="13.5" font-family="'SF Pro Display', sans-serif" font-size="9.5" font-weight="700" fill="#F0F4F8" text-anchor="middle">Neo4j</text>
+
+    <rect x="122" y="0" width="64" height="20" rx="3" fill="#141E30" stroke="#374863" stroke-width="0.8" />
+    <text x="154" y="13.5" font-family="'SF Pro Display', sans-serif" font-size="9.5" font-weight="700" fill="#F0F4F8" text-anchor="middle">NetworkX</text>
+
+    <rect x="192" y="0" width="50" height="20" rx="3" fill="#141E30" stroke="#374863" stroke-width="0.8" />
+    <text x="217" y="13.5" font-family="'SF Pro Display', sans-serif" font-size="9.5" font-weight="700" fill="#F0F4F8" text-anchor="middle">React</text>
+
+    <rect x="248" y="0" width="60" height="20" rx="3" fill="#141E30" stroke="#FF1E46" stroke-width="0.8" />
+    <text x="278" y="13.5" font-family="'SF Pro Display', sans-serif" font-size="9.5" font-weight="700" fill="#F0F4F8" text-anchor="middle">Groq LLM</text>
+  </g>
+
+  <!-- Right Visual: AST Knowledge Graph Illustration -->
+  <g transform="translate(370, 115)" opacity="0.85">
+    <!-- Web connecting lines -->
+    <line x1="-30" y1="-25" x2="15" y2="-35" stroke="#FF1E46" stroke-width="1.2" opacity="0.6" />
+    <line x1="-30" y1="-25" x2="-20" y2="25" stroke="#00F0FF" stroke-width="1.2" opacity="0.6" />
+    <line x1="15" y1="-35" x2="45" y2="5" stroke="#00F0FF" stroke-width="1.2" opacity="0.6" />
+    <line x1="-20" y1="25" x2="45" y2="5" stroke="#FF1E46" stroke-width="1.2" opacity="0.6" />
+    <line x1="15" y1="-35" x2="0" y2="5" stroke="#FFFFFF" stroke-width="1" opacity="0.4" />
+    <line x1="-20" y1="25" x2="0" y2="5" stroke="#FFFFFF" stroke-width="1" opacity="0.4" />
+
+    <!-- Nodes -->
+    <circle cx="-30" cy="-25" r="7" fill="#FF1E46" filter="url(#m1Glow)" />
+    <circle cx="15" cy="-35" r="6" fill="#00F0FF" filter="url(#m1Glow)" />
+    <circle cx="-20" cy="25" r="6.5" fill="#00F0FF" filter="url(#m1Glow)" />
+    <circle cx="45" cy="5" r="8" fill="#FF1E46" filter="url(#m1Glow)" />
+    <!-- Center AST Hub Node -->
+    <circle cx="0" cy="5" r="5" fill="#FFFFFF" stroke="#00F0FF" stroke-width="2" class="node-pulse" />
+  </g>
+
+  <!-- Action Bar at Bottom -->
+  <line x1="2" y1="182" x2="478" y2="182" stroke="#1B2438" stroke-width="1" />
+  <text x="24" y="206" font-family="'Courier New', monospace" font-size="11" font-weight="700" fill="#FF1E46">
+    &gt;&gt; REPO: NHR-09/repoanayliser
+  </text>
+  <g transform="translate(370, 192)">
+    <rect x="0" y="0" width="90" height="24" rx="4" fill="#131B2D" stroke="#00F0FF" stroke-width="1" />
+    <text x="45" y="16" font-family="'SF Pro Display', sans-serif" font-size="10.5" font-weight="800" fill="#00F0FF" text-anchor="middle" letter-spacing="0.8">VIEW ↗</text>
+  </g>
+
+  <!-- Corner Notch Accent -->
+  <polygon points="478,228 464,228 478,214" fill="#FF1E46" />
+</svg>
