@@ -3,65 +3,36 @@
 <!-- SPIDER-MAN HERO BANNER -->
 <img src="assets/hero/hero_banner.png" width="100%" alt="NHR-09 — lets do this one last time yo ," style="border-radius: 8px; max-width: 736px;" />
 
-<br/><br/>
+<br/>
 
-<!-- SHORT DEVELOPER IDENTITY -->
+<!-- ABOUT SECTION [01] -->
+<img src="assets/sections/01_about.svg" width="100%" alt="About NHR-09" style="max-width: 736px;" />
+
+<!-- CURRENTLY EXPLORING SECTION [02] -->
+<img src="assets/sections/02_exploring.svg" width="100%" alt="Currently Exploring" style="max-width: 736px;" />
+
+<!-- ARSENAL TECH STACK [03] -->
+<img src="assets/sections/03_arsenal.svg" width="100%" alt="Arsenal Tech Stack" style="max-width: 736px;" />
+
+<!-- REPOSITORY EXPLORER (CLICKABLE GATEWAY) -->
+<a href="https://github.com/NHR-09?tab=repositories">
+  <img src="assets/sections/repository_card.svg" width="100%" alt="Repositories speak louder than words. Explore the repositories →" style="max-width: 736px;" />
+</a>
+
+<!-- CONNECT SECTION [04] -->
+<img src="assets/sections/04_connect.svg" width="100%" alt="Connect" style="max-width: 736px;" />
+
+<!-- INTERACTIVE CONNECT LINKS -->
 <p align="center">
-  <b>Developer &amp; Systems Architect</b><br/>
-  <i>Focusing on intelligent architectures, high-performance backends, and decentralized systems.</i>
+  <a href="https://github.com/NHR-09"><code>GitHub</code></a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/nhr-09"><code>LinkedIn</code></a> &nbsp;·&nbsp;
+  <a href="mailto:niharmehakare@gmail.com"><code>Email</code></a> &nbsp;·&nbsp;
+  <a href="https://t.me/nhr_091"><code>Telegram</code></a> &nbsp;·&nbsp;
+  <a href="https://instagram.com/nhr_092"><code>Instagram</code></a> &nbsp;·&nbsp;
+  <a href="https://nhr09.vercel.app/"><code>Portfolio</code></a>
 </p>
 
-<img src="assets/decorations/divider.svg" width="460" alt="Divider" />
-
-<br/>
-
-<!-- CURRENT FOCUS -->
-<h3><code>// CURRENTLY EXPLORING</code></h3>
-
-<p>
-  Building RAG &amp; LLM-driven applications, AST knowledge graphs, and exploring high-throughput Solana protocols.<br/>
-  Breaking complex systems down to first principles — then rebuilding them better.
-</p>
-
-<br/>
-
-<!-- RESTRAINED TECH STACK -->
-<h3><code>// ARSENAL</code></h3>
-
-<p>
-  <code>Python</code> &nbsp;·&nbsp; <code>Java</code> &nbsp;·&nbsp; <code>TypeScript</code> &nbsp;·&nbsp; <code>C++</code> &nbsp;·&nbsp; <code>Rust</code><br/>
-  <code>Spring Boot</code> &nbsp;·&nbsp; <code>FastAPI</code> &nbsp;·&nbsp; <code>React</code> &nbsp;·&nbsp; <code>Neo4j</code> &nbsp;·&nbsp; <code>PostgreSQL</code> &nbsp;·&nbsp; <code>Docker</code>
-</p>
-
-<br/>
-
-<img src="assets/decorations/divider.svg" width="460" alt="Divider" />
-
-<br/>
-
-<!-- DIRECT ROUTE TO REPOSITORIES -->
-<p>
-  <b>Repositories speak louder than words.</b><br/>
-  <a href="https://github.com/NHR-09?tab=repositories"><b>Explore the repositories ↓</b></a>
-</p>
-
-<br/>
-
-<!-- CONNECT -->
-<p>
-  <a href="https://nhr09.vercel.app/">Portfolio</a> &nbsp;•&nbsp;
-  <a href="mailto:niharmehakare@gmail.com">Email</a> &nbsp;•&nbsp;
-  <a href="https://t.me/nhr_091">Telegram</a> &nbsp;•&nbsp;
-  <a href="https://instagram.com/nhr_092">Instagram</a>
-</p>
-
-<br/>
-
-<!-- SUBTLE GRAPHIC NOVEL SIGN-OFF -->
-<img src="assets/decorations/spider-logo.svg" width="55" alt="Spider-Man Logo" />
-
-<br/><br/>
-
-<sub><i>"Anyone can wear the mask. You could wear the mask."</i></sub>
+<!-- FOOTER NOIR SKYLINE -->
+<img src="assets/sections/05_footer.svg" width="100%" alt="A better version, always. — NHR-09" style="max-width: 736px;" />
 
 </div>

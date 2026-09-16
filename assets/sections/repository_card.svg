@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 88" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', Courier, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif; }
+    </style>
+    <clipPath id="cardClip">
+      <rect x="30" y="6" width="676" height="76" rx="8" />
+    </clipPath>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="736" height="88" fill="#000000" />
+
+  <!-- Main Card Container -->
+  <rect x="30" y="6" width="676" height="76" rx="8" fill="#090C11" stroke="#1C222D" stroke-width="1" />
+
+  <!-- Topographic Contour Lines (Clipped to Card) -->
+  <g clip-path="url(#cardClip)" opacity="0.85">
+    <path d="M 430 6 C 470 28, 510 22, 550 40 C 590 56, 640 42, 710 52" fill="none" stroke="#161D28" stroke-width="1.2" />
+    <path d="M 460 6 C 500 35, 540 30, 580 50 C 620 66, 660 52, 710 64" fill="none" stroke="#161D28" stroke-width="1.2" />
+    <path d="M 500 6 C 540 42, 580 38, 620 58 C 650 72, 680 62, 710 74" fill="none" stroke="#161D28" stroke-width="1.2" />
+    <path d="M 400 42 C 450 54, 490 78, 560 68 C 610 60, 650 82, 710 80" fill="none" stroke="#161D28" stroke-width="1.2" />
+    <path d="M 360 62 C 410 72, 460 84, 530 78 C 580 72, 630 86, 710 85" fill="none" stroke="#161D28" stroke-width="1.2" />
+  </g>
+
+  <!-- Left: Minimalist Wireframe Folder Icon -->
+  <g transform="translate(56, 30)">
+    <!-- Folder Back Tab -->
+    <path d="M 0 4 C 0 2, 1 1, 3 1 L 10 1 C 12 1, 13 2.5, 14 4 L 16 6 L 27 6 C 29 6, 30 7, 30 9 L 30 23 C 30 25, 29 26, 27 26 L 3 26 C 1 26, 0 25, 0 23 Z"
+          fill="none" stroke="#C9D1D9" stroke-width="1.5" stroke-linejoin="round" />
+    <!-- Inner Line -->
+    <line x1="0" y1="10" x2="30" y2="10" stroke="#C9D1D9" stroke-width="1.2" opacity="0.7" />
+  </g>
+
+  <!-- Center: Repository Callout Text -->
+  <g transform="translate(104, 33)">
+    <text x="0" y="8" class="mono" font-size="13" font-weight="600" fill="#F0F3F6" letter-spacing="0.2">Repositories speak louder than words.</text>
+    <!-- Red Action Link -->
+    <text x="0" y="27" class="mono" font-size="12" font-weight="600" fill="#E52E2E" letter-spacing="0.2">Explore the repositories →</text>
+    <line x1="0" y1="31" x2="182" y2="31" stroke="#E52E2E" stroke-width="1" />
+  </g>
+
+  <!-- Right: Micro-text "BUILDING THINGS THAT MATTER" -->
+  <g transform="translate(686, 22)">
+    <text x="0" y="8" class="mono" font-size="8" font-weight="700" fill="#6E7681" letter-spacing="1.5" text-anchor="end">BUILDING</text>
+    <text x="0" y="19" class="mono" font-size="8" font-weight="700" fill="#6E7681" letter-spacing="1.5" text-anchor="end">THINGS</text>
+    <text x="0" y="30" class="mono" font-size="8" font-weight="700" fill="#6E7681" letter-spacing="1.5" text-anchor="end">THAT</text>
+    <text x="0" y="41" class="mono" font-size="8" font-weight="700" fill="#6E7681" letter-spacing="1.5" text-anchor="end">MATTER</text>
+    <!-- Crimson Bar Underneath -->
+    <rect x="-24" y="47" width="24" height="2" fill="#E52E2E" />
+  </g>
+</svg>

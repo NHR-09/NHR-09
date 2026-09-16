@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736 175" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', Courier, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="736" height="175" fill="#000000" />
+
+  <!-- Section Header: // CURRENTLY EXPLORING [02] -->
+  <g transform="translate(30, 32)">
+    <text x="0" y="0" class="mono" font-size="15" font-weight="700" fill="#E52E2E" letter-spacing="1">//</text>
+    <text x="24" y="0" class="mono" font-size="14" font-weight="700" fill="#F0F3F6" letter-spacing="1">CURRENTLY EXPLORING</text>
+    <text x="676" y="0" class="mono" font-size="12.5" font-weight="600" fill="#505763" text-anchor="end">[02]</text>
+  </g>
+
+  <!-- 4 Columns Grid -->
+
+  <!-- Column 1: RAG & LLMs -->
+  <g transform="translate(30, 52)">
+    <!-- Red Wireframe Isometric Cube -->
+    <g transform="translate(0, 0)">
+      <path d="M 15 2 L 27 9 L 15 16 L 3 9 Z" stroke="#E52E2E" stroke-width="1.5" fill="none" stroke-linejoin="round" />
+      <path d="M 3 9 L 3 23 L 15 30 L 15 16" stroke="#E52E2E" stroke-width="1.5" fill="none" stroke-linejoin="round" />
+      <path d="M 27 9 L 27 23 L 15 30" stroke="#E52E2E" stroke-width="1.5" fill="none" stroke-linejoin="round" />
+    </g>
+    <!-- Text -->
+    <text x="0" y="50" class="sans" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="0.2">RAG &amp; LLMs</text>
+    <text x="0" y="68" class="mono" font-size="11" fill="#8B949E">Building real-world</text>
+    <text x="0" y="83" class="mono" font-size="11" fill="#8B949E">applications</text>
+  </g>
+
+  <!-- Column 2: Knowledge Graphs -->
+  <g transform="translate(202, 52)">
+    <!-- Red Wireframe Network Graph -->
+    <g transform="translate(0, 0)">
+      <line x1="15" y1="5" x2="5" y2="25" stroke="#E52E2E" stroke-width="1.4" />
+      <line x1="15" y1="5" x2="25" y2="25" stroke="#E52E2E" stroke-width="1.4" />
+      <line x1="5" y1="25" x2="25" y2="25" stroke="#E52E2E" stroke-width="1.4" />
+      <circle cx="15" cy="5" r="2.8" fill="#E52E2E" stroke="#000" stroke-width="1" />
+      <circle cx="5" cy="25" r="2.8" fill="#E52E2E" stroke="#000" stroke-width="1" />
+      <circle cx="25" cy="25" r="2.8" fill="#E52E2E" stroke="#000" stroke-width="1" />
+    </g>
+    <!-- Text -->
+    <text x="0" y="50" class="sans" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="0.2">Knowledge Graphs</text>
+    <text x="0" y="68" class="mono" font-size="11" fill="#8B949E">Structured intelligence</text>
+    <text x="0" y="83" class="mono" font-size="11" fill="#8B949E">at scale</text>
+  </g>
+
+  <!-- Column 3: High-Throughput Systems -->
+  <g transform="translate(374, 52)">
+    <!-- Red Wireframe Stacked Layers -->
+    <g transform="translate(0, 0)">
+      <path d="M 15 3 L 27 9.5 L 15 16 L 3 9.5 Z" stroke="#E52E2E" stroke-width="1.5" fill="none" stroke-linejoin="round" />
+      <path d="M 3 16 L 15 22.5 L 27 16" stroke="#E52E2E" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 3 22.5 L 15 29 L 27 22.5" stroke="#E52E2E" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <!-- Text -->
+    <text x="0" y="50" class="sans" font-size="12.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.1">High-Throughput Systems</text>
+    <text x="0" y="68" class="mono" font-size="11" fill="#8B949E">Scalable, performant</text>
+    <text x="0" y="83" class="mono" font-size="11" fill="#8B949E">backends</text>
+  </g>
+
+  <!-- Column 4: Decentralized Tech -->
+  <g transform="translate(546, 52)">
+    <!-- Red Wireframe Interlinked Chain -->
+    <g transform="translate(0, 0)">
+      <rect x="5" y="7" width="13" height="7.5" rx="3.75" transform="rotate(-40 11.5 10.75)" stroke="#E52E2E" stroke-width="1.5" fill="none" />
+      <rect x="14" y="15" width="13" height="7.5" rx="3.75" transform="rotate(-40 20.5 18.75)" stroke="#E52E2E" stroke-width="1.5" fill="none" />
+    </g>
+    <!-- Text -->
+    <text x="0" y="50" class="sans" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="0.2">Decentralized Tech</text>
+    <text x="0" y="68" class="mono" font-size="11" fill="#8B949E">Exploring Solana</text>
+    <text x="0" y="83" class="mono" font-size="11" fill="#8B949E">ecosystem</text>
+  </g>
+
+  <!-- Bottom Hairline Divider -->
+  <line x1="30" y1="168" x2="706" y2="168" stroke="#161B22" stroke-width="1" />
+</svg>
