@@ -1,0 +1,32 @@
+# Temporary preview files
+preview_cards.html
+
+# Unused section options & backups
+assets/sections/card_opt*.svg
+assets/sections/*_original.svg
+
+# Unused hero backups
+assets/hero/*_original.*
+
+# Unused footer variations
+assets/footer/footer.png
+assets/footer/footer_spiderman_quote.png
+
+# Unused identity extraction & intermediate files
+assets/identity/the_mask.png
+assets/identity/mask_portrait_crop.png
+assets/identity/hero_with_user.png
+assets/identity/rick_nhr09.png
+assets/identity/rick_nihar_hero.png
+
+# Python cache & build files
+*.py
+*.pyc
+__pycache__/
+
+# OS & editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
